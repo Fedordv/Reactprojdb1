@@ -19,6 +19,7 @@ export default function Header() {
         </nav>
 
         <div className="cart-wrapper">
+          <Link to="/signup">Регистрация</Link>
           <button className="cart-btn" onClick={() => setOpen(prev => !prev)}>
             🛒 <span className="cart-count">{cart.length}</span>
           </button>

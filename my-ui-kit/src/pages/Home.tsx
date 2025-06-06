@@ -10,6 +10,10 @@ const products: Product[] = [
   { id: 3, title: 'Часы', price: 8000 },
   { id: 4, title: 'Планшет', price: 30000 },
   { id: 5, title: 'Монитор', price: 15000 },
+  { id: 6, title: 'Монитор', price: 15000 },
+  { id: 7, title: 'Монитор', price: 15000 },
+  { id: 8, title: 'Монитор', price: 15000 },
+  { id: 9, title: 'Монитор', price: 15000 },
 ];
 
 export default function Home() {
@@ -35,6 +39,7 @@ export default function Home() {
           ))}
         </div>
       </div>
+     
     </div>
   );
 }

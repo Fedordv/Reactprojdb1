@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import NotFound from './pages/NotFound';
 import Search from './pages/Search';
+import SignUp from './pages/SignUp';
+import RegistrationConfirmation from './pages/RegistrationConfirmation';
 
 import { CartProvider } from './context/CartContext';
 
@@ -18,6 +20,8 @@ export default function App() {
             <Route path="about" element={<About />} />
             <Route path="search" element={<Search />} />
             <Route path="*" element={<NotFound />} /> {/* 404 */}
+            <Route path="signup" element={<SignUp />} />
+            <Route path="registration-confirmation" element={<RegistrationConfirmation />} />
           </Route>
         </Routes>
       </CartProvider>

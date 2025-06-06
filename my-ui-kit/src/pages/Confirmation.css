@@ -1,0 +1,22 @@
+.confirmation-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.confirmation-box {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+}
+
+.go-home-btn {
+  margin-top: 1rem;
+  display: inline-block;
+  background-color: #1a3dc1;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}

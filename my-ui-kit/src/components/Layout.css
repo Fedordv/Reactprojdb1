@@ -48,6 +48,10 @@ footer {
 
 .cart-wrapper {
   position: relative;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .cart-btn {
